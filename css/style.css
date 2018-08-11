@@ -1,0 +1,24 @@
+
+
+#pantalla{
+
+    /*width: 500px;*/
+    height: 200px;
+    background-color: #e3f2fd;
+    position: relative;  
+}
+.row{
+    padding-top: 3%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#pantalla ~div{
+  background-color: #3f51b5 !important;
+  border: gray 0.1px thin;
+  font-size: 20px;
+}
+#pantalla ~div:hover{
+    background-color: #7986cb !important;
+    border: gray 0.1px thin;
+    font-size: 20px;
+  }
